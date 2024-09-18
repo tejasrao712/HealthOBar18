@@ -155,14 +155,14 @@ const HomePage: React.FC = () => {
                 key={testimonial}
                 className="bg-white p-6 rounded shadow flex mx-3 items-center hover:shadow-lg transition-shadow"
               >
-                <img
+                <Image
                   src={`/images/user-${testimonial}.jpg`} // Replace with your user image paths
-                  alt={`User Name ${testimonial}`}
+                  alt={`User Name ${testimonial}`}  
                   className="h-16 w-16 rounded-full mr-6"
                 />
                 <div>
                   <p className="text-gray-700 mb-2">
-                    "This service changed my life!"
+                    This service changed my life!
                   </p>
                   <p className="font-bold">User Name {testimonial}</p>
                 </div>

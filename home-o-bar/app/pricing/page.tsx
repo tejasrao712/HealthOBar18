@@ -221,7 +221,7 @@ const PricingPage: React.FC = () => {
           <div className="w-1/3 bg-white p-4 rounded-full shadow text-center">
             <h4 className="text-md font-semibold my-2">Have a Question?</h4>
             <p className="text-gray-600 my-4">
-              If you don't find the answer to your question, feel free to ask us directly.
+              If you do not find the answer to your question, feel free to ask us directly.
             </p>
             <button className="w-2/5 bg-pinkColor-dark text-white p-2 rounded">Ask Us!</button>
           </div>
